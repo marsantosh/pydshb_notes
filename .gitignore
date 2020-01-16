@@ -6,6 +6,9 @@ __pycache__/
 # data related
 data/
 
+# my nohup.out file
+nohup.out
+
 # C extensions
 *.so
 
