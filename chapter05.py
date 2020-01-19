@@ -8,7 +8,6 @@ iris = sns.load_dataset('iris')
 iris.head()
 
 #%%
-%matplotlib
 sns.set()
 sns.pairplot(iris, hue = 'species', height = 1.5)
 
@@ -62,7 +61,6 @@ plt.plot(xfit, yfit)
 import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
-%matplotlib
 
 from sklearn.model_selection import train_test_split
 Xtrain, Xtest, ytrain, ytest = train_test_split(X_iris, y_iris, random_state = 1)
@@ -452,7 +450,6 @@ pd.DataFrame(X.toarray(), columns = vec.get_feature_names())
 
 #%%
 # derived features
-%matplotlib
 import numpy as np
 import matplotlib.pyplot as plt
 
